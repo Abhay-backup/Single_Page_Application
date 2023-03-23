@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="SPAStyle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" /> -->
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <title>Single Page Application</title>
+
+</head>
+
+<body>
+
+    <!-- new start home -->
+    <nav class=" navbar navbar-light bg-light container-fluid ">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/favicon.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            Single Page Application
+        </a>
+        <ul class="nav justify-content-end navbar-toggler" style="cursor: pointer;">
+            <li class="nav-item">
+                <a class="nav-link"  onclick="home()">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"  onclick="aboutus()">About us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" onclick="image()">Images </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " onclick="services()">services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " onclick="contactus()">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- end start home -->
+
+    <!-- Start Home -->
+    <div class="home">
+        <div class="d-flex justify-content-center">
+            <div class="card m-5 hovereffect" style="width: 50rem;">
+
+                <img class="card-img-top" src="img/mountains.jpg" alt="Card image cap">
+
+                <div class="card-body d-flex justify-content-center">
+
+                    <p class="card-text" style="color: rgb(110, 92, 41);">Mountains</p>
+
+                </div>
+            </div>
+
+            <div class="card m-5 hovereffect" style="width: 50rem;">
+              
+                    <img class="card-img-top" src="img/sunrise.jpg" alt="Card image cap">
+                    <div class="card-body d-flex justify-content-center">
+                        <p class="card-text" style="color: rgb(210, 41, 185)">Sunrise Boat</p>
+                    </div>
+              
+            </div>
+
+            <div class="card m-5 hovereffect" style="width: 50rem;">
+                <img class="card-img-top" src="img/hills.jpg" alt="Card image cap">
+                <div class="card-body d-flex justify-content-center ">
+                    <p class="card-text" style="color: rgb(31, 207, 84)">Hills Tree Fog</p>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div class="card m-5 hovereffect" style="width: 50rem;">
+                <img class="card-img-top" src="img/Tree.jpg" alt="Card image cap">
+                <div class="card-body d-flex justify-content-center">
+
+                    <p class="card-text" style="color: rgb(240, 47, 30)">Tree</p>
+
+                </div>
+            </div>
+
+            <div class="card m-5 hovereffect" style="width: 50rem;">
+                <img class="card-img-top" src="img/church-lake-sunset.jpg" alt="Card image cap">
+                <div class="card-body d-flex justify-content-center">
+                    <p class="card-text" style="color: rgb(242, 162, 14)">Church-Lake-Sunset</p>
+
+                </div>
+            </div>
+
+            <div class="card m-5 hovereffect" style="width: 50rem;">
+                <img class="card-img-top" src="img/beach-bird-sea.jpg" alt="Card image cap">
+                <div class="card-body d-flex justify-content-center ">
+                    <p class="card-text" style="color: rgb(90, 146, 231)">Beach-Bird-Sea</p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <hr>
+    <!-- End Home -->
+
+    <!--Start AboutUs https://bootstrapious.com/i/snippets/sn-about/img-1.jpghttps://bootstrapious.com/i/snippets/sn-about/img-1.jpg -->
+    <div class="AboutUs" id="aboutus">
+        <h1 style=" margin: 0px 500px 0px 500px; border-radius: 15px; border-style: inset;">About Us</h1>
+        <div class="bg-white py-5">
+            <div class="container py-5 ">
+                <div class="row align-items-center mb-5">
+                    <div class="col-lg-6 order-2 order-lg-1"><i class="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
+                        <h2 class="font-weight-light">HTML Tutorial</h2>
+                        <p class="font-italic text-muted mb-4">HTML is the standard markup language for Web pages.<br>
+                            With HTML you can create your own Website.<br>
+                            HTML is easy to learn - You will enjoy it!</p><a href="https://www.w3schools.com/html/"
+                            class="btn btn-light px-5 rounded-pill shadow-sm" target="_blank">Learn HTML</a>
+                    </div>
+                    <div class="col-lg-5 px-5 mx-auto order-1 order-lg-2 ">
+                        <a href="https://www.w3schools.com/html/" target="_blank" ><img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjl0vEakPtx6iubXI-VLP56s36ZNRp30DEsw&usqp=CAU"
+                                alt="" class="img-fluid mb-4 mb-lg-0 hovereffect"></a>
+                    </div>
+                </div>
+                <div class="row align-items-center ">
+                    <div class="col-lg-5 px-5 mx-auto">
+                        <a href="https://www.w3schools.com/css/" target="_blank"><img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANIAAADwCAMAAABCI8pNAAAAolBMVEUbc7r///8ciMcAabYAZ7UAbLcbdrwAfsPt8/nL2usAbbgAgMQQhcZio9IbcbkAaLbL3+/j7vaJrdXS3+7A0uccgcIbe7+hvdzf6POPsdatxeD2+fyauNq3zOR0oM4AZLRdkshsm8w+gsGAp9Kowd5LicNilclEhcKqy+Vvnc2nyeSNut00fb9Fl82As9q71eo/lMwAXbJTndCCtNqVv99sqdVeuYKuAAAOD0lEQVR4nN2de1viPBPGi20RC1YRDygo4mld11Uf1/3+X+3pCZrDJDNpkmbl/ue53vfqYn8kTO9OZpJoudUFr4etrhS6BnSq1QGgmVZzSFNGo+lotPlvreg1zZRK3Sh2oyNW7f+dJM1/GkXRbR7tlPLH6CYLfRNulf+MTnYN6SRa7hhStoyu0tA34VbpVXS6a0in0UEc+ibcKj6I5kehb8KtjubRKAl9E26VjKLBjiGtBtFgxyZeWiBFu+WIhgXSj51Cyh8LpKfdQloXSDc7hZSdFEiXO2XysmWBdLFTjii9KpCudwopPi2QejN5Q07aS/NS/P+SBf7LeFYgzXpCGu55kfDdxNMCadqTI+oHKVkUSIvvjST8lWRQIPXlWz0h8T+pPK+QFD+0b4LE/5H8rkK6+85IEwHptkLqKTnpB+lMQLqpkHoyeb0gZZcVUk/JyV6Q0osKqSeT5wfpnJ9i6XWF1FNyshek+KBCOu3HEflBEszD0bxC6snk9YKUjCqk6XdGEv7IalAh9WTyekGKa6TB6hsjCc/UYYOU9fKs9YIk+qHHBul1d5DWDVI/Js8LkuiHThqkn7uDtGyQ+jF5XpDO+b+RXjVI/axA+0ES/NBpg9SPyesFadYg9WPyvCCJKa95g4SbvDyxVzret9MYR0oWDRK6Ap0/LkbhNQOYhBtNBg0SugJdppLCawogySmvGgnP5K0WYWkqQUjCV39XXlchoRGvfLMKLgAJSHk1SK8YUhXvQwtAAlJeDdIj5ojKxEtw4UhlyqtBWmNI2X1Ymko4Uv3NV0j3mCOqJ2lgAUhAyqtBQk1eHoWlqYQjlSmvBukBDXlJWJpKABKQ8mqQ8BXoeBoWpxSOVKa8GiR8Bboe0rACkMC5VCHhZYbpQ1CaSkZIeJlh9VIfWACS8PA5r66rQxmKlD+FhKklI0EpLzJSlfMLLBxpXV1XI+lrRUqtArI0kpFEP1R7nBoJNXlNfAwqHGlZXVcjPaE5on8giqNIVcprg4SavM3lISUjQSmvDRJeZlj79qDCkWbVdTUSbvKaaBJSMpJc5VWqRsJNXv4akqYSipTUGZIaiVBmGN6Ly0jwLdZIhF6S8FFcRoJSXhskQi9JHDxJ9DLRj1Kd8togUVagLXpJV/9FD5aZwNGvCeqHblkkn70kebZ6mtnxDI4P96UhUqS8tkjeeknyND2x/BUuXvbGAJAi5bVF8tRLkiev13Y8g/lfaIAgpE2ysUHy0UtSzLi17Yx7/lACKVJeWyT3ZYbFjLu0nHHTP2N4xsFIG2fdILnuJXEw494/NQNUCUx5bZGclhk6iHGLr4l2gCCkjRlokBz2kjiYcTN1SGAl/OGNZWuQnPWSFDPO9s3qWRGzMaSYR3JTZuhgxhUhgcazB1Z5MUgueknyNLadce+/STOuFpzy2iLZlxlm1jNuRAkJGqQ1j2TZS+JgxsE2Tic45dUi2fSS2M84pY0zQVoKSN17Sexn3PwNrDwxRNrmsDZIHcsMHcy4d52N0wlOebVInUye/VN19Etv40yQNl/tBqlDmaH9U/UYtXE6wSmvFsnU5NnPuMVXh5CgQUo2qYANklmZof2MI9o4nYR72q6tbJBMygzt3xyeP+wGCEBqq9E2SGSTZ/+uamLjDJDuRCRiL4n9U/X99/l4YiyASJHyapFIJs8+xr1/fh520Cc95dUiEXpJcvvsSFfNAXehSHkxSGgvSX4TLiv+jiO19XVbJLSXJOQ64DOApEh5MUioyQtZk/cF/JYUKS8GCe0lCVmT9wdAUqS8GCTU5IWsyfuLI7XrX9v7xHtJAlZzQEFcuLt2lXKLhJu8gItmHzKRKuXFIOEmL2BlNfTSq0h5MUi4yQtYk7cvE6lSXgzSHEUKF8VHBKT19uotEr4CHS6KU/xQ+323kRlHChbFjwlIy+3V7W2meAFbqP4YisVr7VqLhPaShOuPIVg8Jhy3SHiZYbAoTrF47XtPi4T2koTrj3nD/RBTm98i4WWGwaI4xeK1v/MWCTd5zOOsX/3GLR5jQFskQplhqC5HGUjKD2Xt1S0SYcvqUF4csngC0l17dYtEWIEOFcUJfohxNi0SocwwUBSHLJ4y5cUiEcoMA0XxOY7EFkgzvg1HChTFCRaP/bKNkAJFccjiKVNeHBLeS5LnM+iIFKKO9VK35r0QLB7TP8Eg4SYvyi3OR8nGWp0/K5Egi6dMeXFIa7/7jSBbWIyPlUgEi8eWfDNIuMnzibSvfuYdElJezKscg+R5y2oMSb2IQLB4MXM5g4SbPK9ISiLQ4ilTXhyS5y2rEaSJGgkIeOqUF4fkectqPdLkQ41klPLikDyfS4IgHSqJRkYpLw7J87kkCNKbEomSxVsy1zNInnczRJC+lEgUi8euULLpxpATb6w2DwSLx731sEhDr5vKIUjvSiSKxWOX+lkkSi+J+sQ9SyR1/QHB4nFLXywSoZckuz9RCWNCkNRGnGLx2NQ2i0QoM4zVtgV7UOuR9tX5dorFY69nkQgmL1bPD6w6FkFSfi5o8YTGxoy9nkUilBlqEirYtEUMkRoJupr/aDblxSMRTJ6mRAV7N9EiTT7VSGYpLx6JYPK4xzQvbIz1SH+Vn7swS3nxSIQyQ80eKtgY65F+KT+XYvG4u2KRCL0k+U/ln8bGWI/0ovxcgsXj84ssEsHkaZagsbpLPZLaPEAWT5Py4pEomby7gUrYF6JF0iRT3k2qvCQkvJeEfwLwshmlsTqZIrema1NeAhKhl0SzHoMUKWqRNMmUX2YpLwGJ0EuiKRRA/rUeSf1NQRZPe1McEsXkqe0l8qzVhwc1kqnF45EIvSQak4cs9uqQdMkU3OIJW1lxSHYmD6no0yKpkymQxdOlvAQkQi+JxuQhz1otkjqZQsnirdVIhF4SjclDkmZaJHUyhWDxhJU8DsnO5CHPWh2SJplCsXj818whEXpJNCZvsNIGTC2S2g9BFg/avl6BZGfyBssfq1jd56BD2lfHUYLFE0IWXzZI6CXR7xp1cHmnwlIgTSbj/cmh2jxQLB7/hfBIdiav1uL05LXAIiCVNHt/X4617SkEiydUe/NIBJNH2ghrcXo/TFJ+tDikybimweswKRaP/xQeyc7k8Rpd30dJ2o77cDs04/2Pt+cZ8XMoFo//FzwS4VwSo5r+6fVNtsEaFjSTisaoEgmyePBeXjCSnclTYF2tC6wsTse//7yb11V9oKMkvpbySIRzSTqVRs0fTq477qIsA+lTXiKSncnzItOUl4hkZ/J8iGLxhG0weSQ7k+dD0EkQoh8SSup4JLyXRGvyPAi0eLqUl4hEWIHuuYCNYvGEXXKF1hACUr9bg0IWT5vykpDww+dwk+dUBIsnbuwpIOG9JD1XVkMWT7gh0XUKSIQyw353O4V6E8yQ8F6Snhs3cYsn7d4uIBHKDI1NnpUAi6dPeUlIvkxeZwGDJCKJxwYISP+ayYNiuD7lJSH9SyZv8X4IboylT3lJSJQyw/Ru6f/nNHr+3Ae3TJH9kDhrBCRSmWGexUdPVx5j+fTlY1+9C44+5SUhkcsM8zQ5P/FyBMH8a081PjCSOGXE9l+TMsMsTm4v3D6ljv/gOxnqU14ykmGZYTFY+f2poxbi4zfSNmz6lJeMhPeSSFRZvPphHTAW73+p28oJf1/ynCISweSBWEfxunvAWBThrevepvKbgYjUuZck7xowRi+/DXikUZIrMUQku16SYg7ePhjlLr904RoUkvKSkax7SQwCxvzXXodN8pCUl4zkopeEFDCO38w2nlUhySe/iEiuekmqgHGtChj08CYLSXnJSA57SYqAsXqVA0blRi32/ENSXjKS416Scg6yDkPjRjsiyQdDiUgeeknKgHFTBgy9G6UK80MSkuX+ziqqPF49ftiOD4gkZ3ckJH+9JA5wSgmfKq9KSkjeeklcnaMufGwsAshIns4lcYckWDz5wEIJyce5JA6RzoSAB6w6SEj3/y7SZDyMxPN6sjWO5K1h2BLp7Bz8lQP7NUhITs8lcYVUTjd49gApOAnJW8NwV6RJOTzKXwOQKJWQvDUMd0I6O5d+PbyAdLaE5OZcEhdI+uHZIMnvMBKSt4ZhM6Szc/wTKyT5HVpC8tYwTEcqhgeZbq2AKi15Z8LAE68YHpMnI7DMKiPZnEtiiTQ5ow9PLWgxXEbqfi6JHZLiWaoX1HwkI3U8lwSVFgkN1gpB1cMykvvD52opkUjBWiE55QUh+TJ5MJLa6pAEHXYsI/kyeUAFssXwNII2TpORrv/T1K9baCgOT7dfD6M8j/8DzhABdsxdnN7nCb4xramGToenzH2mN2CiWrEJ8PziMQHK1200dDc8UZ6u1Gvgmn2ND06GLgdruGdmdVTKszj+ea1ZR9Bv1Ty9ekpc/bKGhlYHVJYmr5fIAgK++/TB5evKzWA5GB5KbQJpQ+3R9To+8hIG6TzF8BDXGMl7hM+WP1apL0uLKIsTg9IRk23PF3UHRb84xfAMzZaATXdyL6K7rpXMMU5ZLPJg2tnQZXP606qLxztPtejb4fY67rc/fbh1/SjmcMrFm661PBZHCBycvHoZrGK6ZbDV8Y5UaHS1PnL6y8orq2NXamV/0MPs8s5RdC+dqNbq9IU0KB/FP1PbwSqHB7M6NDk7jmOubxRGhifWFEmYyhnSoOuLVlkd4WZ4GrlEKjW/uIX6hFUyszo0uUYqVb1o4VjmVocmH0iDMro/xbpfVlW1ctWxiRORJ6RSyuheDE9076V6uZJHpAEU3cvheTR2okbyi1SKie6dnaiR/CMNNtHdwokaqRekUtMHV+XkmP4HEXdX+aVajHUAAAAASUVORK5CYII="
+                                alt="" class="img-fluid mb-4 mb-lg-0 hovereffect"></a>
+                    </div>
+                    <div class="col-lg-6"><i class="fa fa-leaf fa-2x mb-3 text-primary"></i>
+                        <h2 class="font-weight-light">CSS Tutorial</h2>
+                        <p class="font-italic text-muted mb-4">CSS is the language we use to style an HTML
+                            document.&nbsp;
+                            CSS describes how HTML elements should be displayed.&nbsp;
+                            This tutorial will teach you CSS from basic to advanced.</p><a
+                            href="https://www.w3schools.com/css/"
+                            class="btn btn-light px-5 rounded-pill shadow-sm" target="_blank">Learn CSS</a>
+                    </div>
+                </div>
+                <div class="row align-items-center mb-5">
+                    <div class="col-lg-6 order-2 order-lg-1"><i class="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
+                        <h2 class="font-weight-light">JavaScript Tutorial</h2>
+                        <p class="font-italic text-muted mb-4">JavaScript is the world's most popular programming
+                            language.&nbsp;
+                            JavaScript is the programming language of the Web.&nbsp;
+                            JavaScript is easy to learn.
+
+                            This tutorial will teach you JavaScript from basic to advanced.</p>
+                            <a href="https://www.w3schools.com/js/" class="btn btn-light px-5 rounded-pill shadow-sm " target="_blank">Learn
+                            JavaScript</a>
+                    </div>
+                    <div class="col-lg-5 px-5 mx-auto order-1 order-lg-2">
+                        <a href="https://www.w3schools.com/js/" target="_blank"><img
+                                src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSE-YEl9eNe7jnbLfJSX21GTugOZDaLCDY0jB30-w-n3JhdN-T-"
+                                alt="" class="img-fluid mb-4 mb-lg-0 hovereffect"></a>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-5 px-5 mx-auto">
+                        <a href="https://www.w3schools.com/bootstrap/" target="_blank"><img
+                                src="data:image/jpeg;base64,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"
+                                alt="" class="img-fluid mb-4 mb-lg-0 hovereffect"><a href="https://www.w3schools.com/css/"
+                                target="_blank"></a>
+                    </div>
+                    <div class="col-lg-6"><i class="fa fa-leaf fa-2x mb-3 text-primary"></i>
+                        <h2 class="font-weight-light">Bootstrap Tutorial</h2>
+                        <p class="font-italic text-muted mb-4">Bootstrap is the most popular HTML, CSS, and JavaScript
+                            framework for developing responsive, mobile-first websites.
+                            &nbsp; Bootstrap is completely free to download and use!</p><a
+                            href="https://www.w3schools.com/bootstrap/"
+                            class="btn btn-light px-5 rounded-pill shadow-sm" target="_blank">Learn Bootstrap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <hr>
+    <!--End  AboutUs -->
+
+    <!-- Start image slider -->
+    <div class="slide-container" id="image">
+        <h2 >Use Image Slider</h2><br>
+
+        <div class="slide">
+            <img src="img/slider1.jpg">
+            <div class="caption">Colorful sky with cloud and bright full moon on seascape to night</div>
+        </div>
+
+        <div class="slide">
+            <img  src="img/slider2.jpg">
+            <div class="caption">Scenic nature landscape of path near lake</div>
+        </div>
+
+        <div class="slide">
+            <img src="img/slider3.jpg">
+            <div class="caption">Fog in the forest</div>
+        </div>
+
+
+        <span class="arrow prev" onclick=" controller(-1)">&#10094;</span>
+        <span class="arrow next" onclick=" controller(1)">&#10095;</span>
+
+    </div>
+    <hr>
+    <!-- end Image Slider -->
+
+    <!-- Start service -->
+    <div class="container-fluid text-center" id="service">
+        <h2 style="border:dotted; margin: 0px 500px 0px 500px;  border-radius: 50px; "><p style="color: rgb(255, 217, 0); text-align:center;padding-top: 10px;">-- SERVICES --</p></h2>
+        <h4>What we offer</h4>
+        <br>
+        <div class="row slideanim">
+            <div class="col-sm-4 hovereffect">
+                <span class="glyphicon glyphicon-off logo-medium"></span>
+                <h4>POWER</h4>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+            <div class="col-sm-4 hovereffect">
+                <span class="glyphicon glyphicon-heart logo-medium"></span>
+                <h4>LOVE</h4>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+            <div class="col-sm-4 hovereffect">
+                <span class="glyphicon glyphicon-lock logo-medium"></span>
+                <h4>JOB DONE</h4>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+        </div>
+        <br><br>
+        <div class="row slideanim">
+            <div class="col-sm-4 hovereffect">
+                <span class="glyphicon glyphicon-leaf logo-medium"></span>
+                <h4>GREEN</h4>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+            <div class="col-sm-4 hovereffect">
+                <span class="glyphicon glyphicon-certificate logo-medium"></span>
+                <h4>CERTIFIED</h4>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+            <div class="col-sm-4 hovereffect">
+                <span class="glyphicon glyphicon-wrench logo-medium"></span>
+                <h4 style="color:#303030;">HARD WORK</h4>
+                <p>Lorem ipsum dolor sit amet..</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- End service -->
+
+
+    <!-- Start Contact Us -->
+    <div class="contact" id="contact">
+        <br /><br /><br />
+        <h1>Contact Us</h1>
+        <div class="border"></div>
+        <form class="contact-form" action="index.html" method="post">
+            <input type="text" class="contact-form-text" placeholder="Your name">
+            <input type="email" class="contact-form-text" placeholder="Your email">
+            <input type="text" class="contact-form-text" placeholder="Your phone">
+            <textarea class="contact-form-text" placeholder="Your Inquiry message"></textarea>
+            <input type="submit" class="contact-form-btn" value="Send Inquiry">
+        </form>
+    </div>
+    <!-- End Contact Us -->
+
+    <!--Start Footer -->
+    <footer class="bg-light text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn text-white btn-floating m-1 hovereffect" target="_blank"
+              style="background-color: #3b5998;"
+              href="https://www.facebook.com"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a
+              class="btn text-white btn-floating m-1 hovereffect" target="_blank"
+              style="background-color: #55acee;"
+              href="https://www.twitter.com"
+              role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a
+              class="btn text-white btn-floating m-1 hovereffect" target="_blank"
+              style="background-color: #dd4b39;"
+              href="https://www.google.com"
+              role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              class="btn text-white btn-floating m-1 hovereffect" target="_blank"
+              style="background-color: #ac2bac;"
+              href="https://www.instagram.com/abhay.chothani/"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              class="btn text-white btn-floating m-1 hovereffect" target="_blank"
+              style="background-color: #0082ca;"
+              href="https://www.linkedin.com/in/abhay-chothani-3720a71b2"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <!-- Github -->
+            <a 
+              class="btn text-white btn-floating m-1 hovereffect" target="_blank"
+              style="background-color: #333333;"
+              href="https:/github.com/AbhayChothaniSimform"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright:
+          <a class="text-white" style="text-decoration: none; cursor: pointer;"><b style="color: #303030;">Abhay Chothani</b></a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    <!-- End Footer -->
+    <script src="SPA.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>
