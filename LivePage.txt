@@ -1,0 +1,2 @@
+Git Repositories 	: 	https://github.com/AbhayChothaniSimform/Single_Page_Application 
+GitHub Page 		: 	https://abhaychothanisimform.github.io/Single_Page_Application/
